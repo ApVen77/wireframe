@@ -1,0 +1,105 @@
+
+body {
+
+    background-color: #6872A6;
+    background-image: url("images/gold_scale_@2X.png");
+    
+}
+
+.center {
+    margin-top: 15px;
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: #2B3949;
+    font-size: 60px;
+    font-family: cursive;
+
+
+}
+
+img {
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+#one:hover, #two:hover {
+    border: red solid 10px;
+}
+
+nav {
+
+    float: right;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 55px;
+    margin: 10px; 
+}
+
+.jumbotron {
+    margin-top: 15px;
+    border: #B88C24 inset 10px;
+}
+
+.flexbox-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 125px;
+
+}
+
+.flexbox-item {
+    height: 250px;
+    width: 300px;
+    border: double dodgerblue 10px;
+    justify-content: space-between;
+}
+
+
+.flexone {
+    flex-shrink: 0;
+    
+}
+
+.flextwo {
+    flex-grow: 2;
+}
+
+.flexthree {
+    flex-shrink: 0;
+}
+
+/* .sixblocks {
+
+    border:  inset 25px;
+} */
+
+
+    
+
+
+
+
+/* hex colors 
+
+E8E9EE
+95A3D9
+39427E
+6872A6
+
+
+F3EDF5
+D9B86D
+42B255
+77875F
+E85216
+
+FBF8F8
+B88C24
+B87E83
+753754
+2B3949
+/*

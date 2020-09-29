@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox-container {
+            display: flex;
+            height: 600px;
+            flex-wrap: wrap;
+
+        }
+
+        .flexbox-item {
+
+            border: forestgreen double 10px;
+            width: 250px;
+            height: 500px;
+        }
+
+        .flexone {
+
+            align-items: flex-start;
+        }
+
+        .flextwo {
+
+            flex-shrink: 0;
+
+
+            width: 300px;
+            flex-grow: 2;
+        }
+
+        .flexthree {
+            flex-shrink: 0;
+
+        }
+
+        .flexfour {
+            height: 250px;
+
+        }
+
+        .boxone {
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>This is a flexbox Example</h1>
+    <img src="images/QhRT4UlO_400x400.jpg" alt="image" style="height:250px; width:200px;">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quis voluptatum, blanditiis debitis qui
+        necessitatibus eos corporis soluta non, iste ipsa est quas perferendis sunt amet possimus facere vel repellat?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, expedita rerum odit a omnis at saepe
+        nesciunt. Molestiae, facilis culpa ratione nesciunt error aperiam, doloremque quos magni enim, vitae odio!</p>
+
+    <div class="flexbox-container">
+
+        <div class="flexbox-item flexfour">
+            <!--content-->
+            <img src="images/QhRT4UlO_400x400.jpg" style="width: 200px; height:250px;">
+        </div>
+
+        <div class="flexbox-item flexone">
+            <!--content-->
+            <img src="images/QhRT4UlO_400x400.jpg" style="width: 200px; height:250px;">
+        </div>
+
+        <div class="flexbox-item flextwo">
+            <!--content-->
+            <img src="images/QhRT4UlO_400x400.jpg" style="width: 200px; height:250px;">
+        </div>
+
+        <div class="flexbox-item flexthree">
+            <!--content-->
+            <img src="images/QhRT4UlO_400x400.jpg" style="width: 200px; height:250px;">
+        </div>
+
+
+
+
+    </div>
+    <div class="flexbox-container">
+        <div class="flexbox-item boxone">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolores similique incidunt nobis alias vitae
+                ducimus mollitia inventore quo! Similique fugit, fugiat voluptate ratione illo libero? Magni culpa
+                incidunt doloremque.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
